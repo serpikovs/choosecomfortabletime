@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v10/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYi1UA.ttf) format('truetype');
+}
+* {
+  font-family: Rubik;
+  font-size: 22px;
+}
+.data-input {
+  font-size: 0.7rem;
+  height: 2rem;
+}
