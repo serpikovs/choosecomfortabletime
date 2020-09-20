@@ -9,6 +9,9 @@
   font-family: Rubik;
   font-size: 22px;
 }
+.progress-bar-purple {
+  background-color: purple !important;
+}
 .fa-user-circle-o {
   color: gray;
 }

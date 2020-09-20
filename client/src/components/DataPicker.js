@@ -10,9 +10,13 @@ import Tooltip from "react-bootstrap/Tooltip"
 
 export default function DatePicker(props) {
   function handleCallback(start, end, label) {
-    console.log(start, end)
+    //console.log(start, end)
     let a = Moment()
     Moment.updateLocale("ru", {
+      months: [
+        '1','2','3','4','5','6','7','8','9','10','11','12'
+      ]
+      /*
       months: [
         "Январь",
         "Февраль",
@@ -27,6 +31,7 @@ export default function DatePicker(props) {
         "Ноябрь",
         "Декабрь",
       ],
+      */
     })
     start.locale("ru")
     end.locale("ru")
